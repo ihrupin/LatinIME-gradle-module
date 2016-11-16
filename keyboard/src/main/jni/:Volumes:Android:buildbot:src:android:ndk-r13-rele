@@ -1,0 +1,7 @@
+/Volumes/Android/buildbot/src/android/ndk-r13-release/external/libcxx/src/include/atomic_support.h:66: error: undefined reference to '__atomic_store_4'
+/Volumes/Android/buildbot/src/android/ndk-r13-release/external/libcxx/include/memory:635: error: undefined reference to '__atomic_load_4'
+/Volumes/Android/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libcxxabi/src/cxa_handlers.cpp:112: error: undefined reference to '__atomic_exchange_4'
+/Volumes/Android/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libcxxabi/src/cxa_default_handlers.cpp:106: error: undefined reference to '__atomic_exchange_4'
+/Volumes/Android/buildbot/src/android/ndk-r13-release/external/libcxx/../../external/libcxxabi/src/cxa_default_handlers.cpp:117: error: undefined reference to '__atomic_exchange_4'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [obj/local/armeabi/libjni_latinime.so] Error 1
